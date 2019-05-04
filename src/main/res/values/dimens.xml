@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="linear_layout_margin_in_add_product_layout">4dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="add_button_width">100dp</dimen>
+    <dimen name="add_button_margin_bottom">8dp</dimen>
+    <dimen name="list_item_height">95dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
+    <dimen name="button_item_width">40dp</dimen>
+    <dimen name="button_item_height">40dp</dimen>
+    <dimen name="details_linear_layout_padding">16dp</dimen>
+    <dimen name="details_buttons_width">40dp</dimen>
+    <dimen name="linear_layout_up_down_buttons_padding">4dp</dimen>
+    <dimen name="details_buttons_height">40dp</dimen>
+    <dimen name="up_down_buttons_width">25dp</dimen>
+    <dimen name="up_down_buttons_height">25dp</dimen>
+    <dimen name="empty_state_padding">4dp</dimen>
+</resources>

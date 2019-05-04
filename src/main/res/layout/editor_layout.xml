@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_margin_in_add_product_layout">
+
+        <TextView
+            style="@style/LabelsStyle"
+            android:text="@string/product_overview" />
+
+        <EditText
+            android:id="@+id/product_overview_edit_text"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/name_hint"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_margin_in_add_product_layout">
+
+        <TextView
+            style="@style/LabelsStyle"
+            android:text="@string/price" />
+
+        <EditText
+            android:id="@+id/price_edit_text"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/price_hint"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_margin_in_add_product_layout">
+
+        <TextView
+            style="@style/LabelsStyle"
+            android:text="@string/quantity" />
+
+        <EditText
+            android:id="@+id/quantity_edit_text"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/quantity_hint"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_margin_in_add_product_layout">
+
+        <TextView
+            style="@style/LabelsStyle"
+            android:text="@string/supplier_name" />
+
+        <EditText
+            android:id="@+id/supplier_name_edit_text"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/company_hint"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/linear_layout_margin_in_add_product_layout">
+
+        <TextView
+            style="@style/LabelsStyle"
+            android:text="@string/supplier_phone_number" />
+
+        <EditText
+            android:id="@+id/supplier_phone_num_edit_text"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/phone_hint"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_new_product_button"
+        android:layout_width="@dimen/add_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/add_button_margin_bottom"
+        android:background="@color/green"
+        android:text="@string/add_button_text" />
+</LinearLayout>
